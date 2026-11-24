@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Design Discussion"
+  short_description: "Explore design choices and record agreed outcomes"
+  default_prompt: "Use $github-design-discussion to examine this PR or issue, discuss design decisions and blind spots with me, and prepare a decision record."
