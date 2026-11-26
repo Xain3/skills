@@ -1,6 +1,7 @@
 ---
 name: github-design-discussion
 description: Examine a required GitHub PR or issue for design decisions and blind spots, discuss tradeoffs interactively, recommend useful research, and record agreed outcomes or deferred questions in comments and linked subissues. Use for design clarification rather than routine code fixes or review-comment implementation.
+version: 2.0
 ---
 
 # GitHub Design Discussion
@@ -21,9 +22,9 @@ Maintain a compact decision ledger in the conversation: stable ID, question, dep
 
 ## Discuss interactively
 
-Work through the decision tree in manageable rounds. Ask questions whose prerequisites are settled; hold dependent questions for later. Number questions with stable IDs. Explain the material tradeoffs and give a recommended answer with reasoning when evidence supports one. Allow alternatives and uncertainty rather than framing agreement as the only acceptable response.
+Favor an ongoing back-and-forth with the user over a one-way assessment or a long questionnaire. Work through the decision tree in manageable rounds. Ask questions whose prerequisites are settled; hold dependent questions for later. Number questions with stable IDs. Explain the material tradeoffs and give a recommended answer with reasoning when evidence supports one. Allow alternatives and uncertainty rather than framing agreement as the only acceptable response. When interactive prompt tools are available, use them for focused preference and decision questions; otherwise ask directly in the conversation.
 
-Wait for the user's answers before treating choices as agreed. Recompute dependent questions after each round. Investigate discoverable facts yourself; ask the user about preferences, priorities, constraints, and judgments. Continue independent investigation while an answer is pending when useful. Do not implement changes merely because the discussion identifies them.
+Wait for the user's answers before treating choices as agreed. Recompute dependent questions after each round and continue the exchange as needed. Investigate discoverable facts yourself; ask the user about preferences, priorities, constraints, and judgments. Continue independent investigation while an answer is pending when useful. Do not implement changes merely because the discussion identifies them.
 
 ## Recommend and conduct research
 
